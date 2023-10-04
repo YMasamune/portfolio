@@ -1,0 +1,91 @@
+h1, h2, main, p{
+    font-family: serif;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: mediumblue;
+}
+nav p{
+    margin: auto;
+    padding: 10px;
+}
+.content{
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+.contact-form{
+    margin: auto;
+    width: 70%;
+}
+input{
+    width: 100%;
+}
+section{
+    text-align: left;
+}
+nav a{
+    color: white;
+}
+
+ul{
+    width: 80%;
+    margin: auto;
+}
+.profile-index{
+    background-color: lightblue;
+    border: solid 1px azure;
+    width: 200px;
+}
+.profile-conents{
+    background-color: azure;
+    color: darkblue;
+    border: solid 1px lightblue;
+    /*border-radius: 10px;*/
+}
+h2{
+    padding: 20px;
+    margin: auto;
+}
+.works-lists{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+@media screen and (max-width : 900px) {
+    main, .works-img{
+        width: 90%;
+    }
+}
+.works-contets{
+    display: block;
+    margin: auto;
+}
+.works-img{
+    border: solid 1px lightgray;
+    width: 400px;
+    padding: 5px;
+}
+#modal{
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#modal-content{
+    background-color: white;
+    margin: 20% auto;
+    padding: 50px;
+    width: 50%;
+}
+.back-main{
+    color: lightblue;
+}
+.slide{
+    width: 90%;
+}
