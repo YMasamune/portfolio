@@ -34,6 +34,11 @@ ul{
     width: 80%;
     margin: auto;
 }
+#profile{
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
 .profile-index{
     background-color: lightblue;
     border: solid 1px azure;
