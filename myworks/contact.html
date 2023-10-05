@@ -11,7 +11,11 @@
         <div class="content">
             <header>
                 <h1>Yui's portfolio</h1>
-                <nav>
+                <div id="humb-open" class="sp-icon"><img src="img/humb-open.png" alt="ハンバーガーメニューを開くアイコン"></div>
+                <nav id="menu">
+                    <div id="humb-close" class="sp-icon">
+                        <img src="img/humb-close.png" alt="ハンバーガーメニューを閉じるアイコン">
+                    </div>
                     <p><a href="index.html">main</a></p>
                     <p><a href="profile.html">profile</a></p>
                     <p><a href="news.html">news</a></p>
@@ -25,24 +29,33 @@
                 <form action="" method="POST">
                     <section id="contact">
                         <table class="contact-form">
-                            <tr>
+                            <tr class="caption">
                                 <th>入力項目</th>
                                 <th>入力内容</th>
                             </tr>
+                            <tr class="vertical-caption">
+                                <td>お名前</td>
+                            </tr>
                             <tr>
-                                <td>お名前：</td>
+                                <td class="caption">お名前：</td>
                                 <td>
                                     <input id="name" type="text" name="name" placeholder="ニックネームまたはお名前をご記入ください" required>
                                 </td>
                             </tr>
+                            <tr class="vertical-caption">
+                                <td>メールアドレス</td>
+                            </tr>
                             <tr>
-                                <td>メールアドレス：</td>
+                                <td class="caption">メールアドレス：</td>
                                 <td>
                                     <input id="email" type="email" name="email" placeholder="aaa@aaa.com" required>
                                 </td>
                             </tr>
+                            <tr class="vertical-caption">
+                                <td>お問い合わせ内容</td>
+                            </tr>
                             <tr>
-                                <td>お問い合わせ内容：</td>
+                                <td class="caption">お問い合わせ内容：</td>
                                 <td>
                                     <textarea cols="30" rows="10" placeholder="ご自由にどうぞ" required></textarea>
                                 </td>
@@ -65,5 +78,6 @@
                 <p>©Yui 2023</p>
             </footer>
         </div>
+        <script src="ja/humb-menu.js"></script>
     </body>
 </html>
